@@ -5,7 +5,7 @@ function Input() {
     const[data, setData] = useState([]);
     const[location, setLocation] = useState("");
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=dfdf62c873483b85c46390893b226870`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=paste your secrete key here`
 
 
  const searchLocation = (event) =>{
